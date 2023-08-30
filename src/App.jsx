@@ -1,4 +1,3 @@
-import { useState } from "react";
 import pavan from "./pavan.jpg";
 import pavan1 from "./pavan1.jpg";
 import pavan2 from "./pavan2.jpg";
@@ -36,7 +35,7 @@ function WA(num) {
   return `https://api.whatsapp.com/send/?phone=${num}&text&type=phone_number&app_absent=0`;
 }
 function FB(id) {
-  return `"https://www.facebook.com/${id}"`;
+  return `https://www.facebook.com/${id}`;
 }
 function Insta(id) {
   return `https://www.instagram.com/${id}`;
